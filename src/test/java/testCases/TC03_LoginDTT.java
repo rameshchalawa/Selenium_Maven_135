@@ -15,63 +15,69 @@ import utilities.DataProviders;
 Data is invalid - login success - test fail - logout
                   login failed - test pass*/
 
+
+
+
 public class TC03_LoginDTT extends BaseClass {
 	
-	@Test(dataProvider="LoginData", dataProviderClass=DataProviders.class,groups="Datadriven") //getting data provider from different class
-	public void verify_loginDDT(String email, String pwd, String exp)
+	@Test(dataProvider="LoginData", dataProviderClass=DataProviders.class,groups="Datadriven")// getting data provider from different class
+	public void verify_loginDDT(String email, String pwd, String exp) throws InterruptedException
 	{
-		logger.info("** stating TC03_LoginDDT **");
+		logger.info("***** stating TC03_LoginDDT ******");
+		
 		try
 		{
-			//HomePage
-			HomePage hp=new HomePage(driver);
-			hp.clickMyAccount();
-			hp.clickLogin();
-
-			//Login
-			LoginPage lp=new LoginPage(driver);
-			lp.setEmail(email);
-			lp.setPassword(pwd);
-			lp.clickLogin();
-
-			//MyAccount
-			MyAccountPage macc=new MyAccountPage(driver);
-			boolean targetPage=macc.isMyAccountPageExists();
-
+		//HomePage
+		HomePage hp=new HomePage(driver);
+		hp.clickMyAccount();
+		hp.clickLogin();
 		
-	if(exp.equalsIgnoreCase("Valid"))
-	{
-		if(targetPage==true)
+		//Login
+		LoginPage lp=new LoginPage(driver);
+		lp.setEmail(email);
+		lp.setPassword(pwd);
+		lp.clickLogin();
+			
+		//MyAccount
+		MyAccountPage macc=new MyAccountPage(driver);
+		boolean targetPage=macc.isMyAccountPageExists();
+		
+		
+		if(exp.equalsIgnoreCase("Valid"))
 		{
-			macc.clickLogout();
-			Assert.assertTrue(true);
+			if(targetPage==true)
+			{			
+				macc.clickLogout();
+				Assert.assertTrue(true);
+				
+			}
+			else
+			{
+				Assert.assertTrue(false);
+			}
 		}
-		else
+		
+		if(exp.equalsIgnoreCase("Invalid"))
 		{
-			Assert.assertTrue(false);
+			if(targetPage==true)
+			{
+				macc.clickLogout();
+				Assert.assertTrue(false);
+				
+			}
+			else
+			{
+				Assert.assertTrue(true);
+			}
 		}
-	}
-
-	if(exp.equalsIgnoreCase("Invalid"))
-	{
-		if(targetPage==true)
+		
+		}catch(Exception e)
 		{
-			macc.clickLogout();
-			Assert.assertTrue(false);
+			Assert.fail();
 		}
-		else
-		{
-			Assert.assertTrue(true);
-		}
+		Thread.sleep(3000);
+		logger.info("***** T03_LoginDDT Execution completed ******");
+		
 	}
-
-	}catch(Exception e)
-	{
-		Assert.fail();
-	}
-	logger.info("** TC03_LoginDDT Execution Completed **");
-
-	}
- 
-
+	
 }
