@@ -4,16 +4,25 @@ public class SumofArray {
 
 	public static void main(String[] args) {
 			
-			int [] num = {30,40,50,60};
+			int [] a = {5,2,7,9,6};
 			
 			int sum = 0;
 			
-			for(int SumofArray : num) {
+			for(int i=0; i<=a.length-1;i++) //0 1 2 3 4 //a.length-1=4
+			{
+			    sum=sum+a[i]; //5+2+7+9+6 ==29
+			}
+			System.out.println("Sum of Array elements:"+sum);
+			
+
+			//Using Enhanced For Loop
+			
+			/*for(int SumofArray : a) {
 				
 				sum = sum + SumofArray;
 			}
-			System.out.println("This is sum of Array :"+sum);
-
+			System.out.println("Sum of Array elements:"+sum);
+            */
 		 }
 	        
 	}
