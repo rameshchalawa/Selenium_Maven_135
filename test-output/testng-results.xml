@@ -1,73 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-06T22:54:59 IST" name="masterregression" finished-at="2026-01-06T22:55:14 IST" duration-ms="15411">
+  <suite started-at="2026-01-11T20:46:18 IST" name="Suite" finished-at="2026-01-11T20:46:48 IST" duration-ms="30711">
     <groups>
-      <group name="Master">
-        <method signature="TC01_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC01_AccountRegistrationTest@179ece50]" name="verify_account_registration" class="testCases.TC01_AccountRegistrationTest"/>
-        <method signature="TC02_LoginTest.verify_login()[pri:0, instance:testCases.TC02_LoginTest@62ddbd7e]" name="verify_login" class="testCases.TC02_LoginTest"/>
-      </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC02_LoginTest.verify_login()[pri:0, instance:testCases.TC02_LoginTest@62ddbd7e]" name="verify_login" class="testCases.TC02_LoginTest"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TC01_AccountRegistrationTest.verify_account_registration()[pri:0, instance:testCases.TC01_AccountRegistrationTest@179ece50]" name="verify_account_registration" class="testCases.TC01_AccountRegistrationTest"/>
-      </group> <!-- Regression -->
+      <group name="regression">
+        <method signature="OrangeHRMTest.openapp()[pri:1, instance:TestNG.OrangeHRMTest@51399530]" name="openapp" class="TestNG.OrangeHRMTest"/>
+        <method signature="OrangeHRMTest.testLogo()[pri:2, instance:TestNG.OrangeHRMTest@51399530]" name="testLogo" class="TestNG.OrangeHRMTest"/>
+        <method signature="OrangeHRMTest.testLogin()[pri:3, instance:TestNG.OrangeHRMTest@51399530]" name="testLogin" class="TestNG.OrangeHRMTest"/>
+        <method signature="OrangeHRMTest.CloseApp()[pri:4, instance:TestNG.OrangeHRMTest@51399530]" name="CloseApp" class="TestNG.OrangeHRMTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2026-01-06T22:54:59 IST" name="Test" finished-at="2026-01-06T22:55:14 IST" duration-ms="15411">
-      <class name="testCases.TC01_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_AccountRegistrationTest@179ece50]" started-at="2026-01-06T22:54:59 IST" name="setup" finished-at="2026-01-06T22:55:03 IST" duration-ms="3546" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-01-11T20:46:18 IST" name="Test" finished-at="2026-01-11T20:46:48 IST" duration-ms="30711">
+      <class name="TestNG.OrangeHRMTest">
+        <test-method signature="openapp()[pri:1, instance:TestNG.OrangeHRMTest@51399530]" started-at="2026-01-11T20:46:18 IST" name="openapp" finished-at="2026-01-11T20:46:42 IST" duration-ms="24234" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC01_AccountRegistrationTest@179ece50]" started-at="2026-01-06T22:55:03 IST" name="verify_account_registration" finished-at="2026-01-06T22:55:09 IST" duration-ms="5725" status="PASS">
+        </test-method> <!-- openapp -->
+        <test-method signature="testLogo()[pri:2, instance:TestNG.OrangeHRMTest@51399530]" started-at="2026-01-11T20:46:42 IST" name="testLogo" finished-at="2026-01-11T20:46:45 IST" duration-ms="3090" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_AccountRegistrationTest@179ece50]" started-at="2026-01-06T22:55:09 IST" name="tearDown" finished-at="2026-01-06T22:55:09 IST" duration-ms="353" status="PASS">
+        </test-method> <!-- testLogo -->
+        <test-method signature="testLogin()[pri:3, instance:TestNG.OrangeHRMTest@51399530]" started-at="2026-01-11T20:46:45 IST" name="testLogin" finished-at="2026-01-11T20:46:48 IST" duration-ms="3035" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC01_AccountRegistrationTest -->
-      <class name="testCases.TC02_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC02_LoginTest@62ddbd7e]" started-at="2026-01-06T22:55:09 IST" name="setup" finished-at="2026-01-06T22:55:11 IST" duration-ms="2305" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testLogin -->
+        <test-method signature="CloseApp()[pri:4, instance:TestNG.OrangeHRMTest@51399530]" started-at="2026-01-11T20:46:48 IST" name="CloseApp" finished-at="2026-01-11T20:46:48 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC02_LoginTest@62ddbd7e]" started-at="2026-01-06T22:55:11 IST" name="verify_login" finished-at="2026-01-06T22:55:14 IST" duration-ms="2752" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC02_LoginTest@62ddbd7e]" started-at="2026-01-06T22:55:14 IST" name="tearDown" finished-at="2026-01-06T22:55:14 IST" duration-ms="330" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC02_LoginTest -->
+        </test-method> <!-- CloseApp -->
+      </class> <!-- TestNG.OrangeHRMTest -->
     </test> <!-- Test -->
-  </suite> <!-- masterregression -->
+  </suite> <!-- Suite -->
 </testng-results>
