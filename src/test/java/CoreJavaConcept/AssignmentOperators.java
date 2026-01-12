@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program5_AssignmentOperators {
+public class AssignmentOperators {
 
 	public static void main(String[] args) {
 		

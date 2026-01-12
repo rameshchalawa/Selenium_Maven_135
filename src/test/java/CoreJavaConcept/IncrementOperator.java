@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program4_IncrementOperator {
+public class IncrementOperator {
 
 	public static void main(String[] args) {
 		

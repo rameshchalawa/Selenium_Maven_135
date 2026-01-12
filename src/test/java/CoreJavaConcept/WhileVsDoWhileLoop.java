@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program11_WhileVsDoWhileLoop {
+public class WhileVsDoWhileLoop {
 
 	public static void main(String[] args) {
 		

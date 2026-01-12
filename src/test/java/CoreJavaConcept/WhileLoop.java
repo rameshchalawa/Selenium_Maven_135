@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program10_WhileLoop {
+public class WhileLoop {
 
 	public static void main(String[] args) {
 		

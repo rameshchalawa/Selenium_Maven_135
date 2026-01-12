@@ -7,7 +7,7 @@ package CoreJavaConcept;
 - If you are uncertain about the number of iterations and the loop termination is based on a condition, the while loop is a good choice.
  */
 
-public class Program12_ForLoop {
+public class ForLoop {
 
 	public static void main(String[] args) {
 		

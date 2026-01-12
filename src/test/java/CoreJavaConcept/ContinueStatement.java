@@ -7,7 +7,7 @@ package CoreJavaConcept;
 3. jumping statemetns -- break, continue 
  */
 
-public class Program14_ContinueStatement {
+public class ContinueStatement {
 
 	public static void main(String[] args) {
 		

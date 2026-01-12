@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program13_BreakStatement {
+public class BreakStatement {
 
 	public static void main(String[] args) {
 		

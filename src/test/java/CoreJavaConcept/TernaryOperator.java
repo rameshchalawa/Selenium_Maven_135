@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program6_TernaryOperator {
+public class TernaryOperator {
 
 	public static void main(String[] args) {
 				

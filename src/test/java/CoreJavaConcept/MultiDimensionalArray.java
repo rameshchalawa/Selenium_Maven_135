@@ -8,7 +8,7 @@ package CoreJavaConcept;
 5) read multiple values from an array
 */
 
-public class Program18_MultiDimensionalArray {
+public class MultiDimensionalArray {
 
 	public static void main(String[] args) {
 		

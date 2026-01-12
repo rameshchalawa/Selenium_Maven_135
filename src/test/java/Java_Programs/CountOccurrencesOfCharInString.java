@@ -1,6 +1,6 @@
 package Java_Programs;
 
-public class CountChar {
+public class CountOccurrencesOfCharInString {
 
 	public static void main(String[] args) {
 		

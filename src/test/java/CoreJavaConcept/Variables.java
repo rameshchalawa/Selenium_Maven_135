@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program1_Variables {
+public class Variables {
 
 	public static void main(String[] args) 
 	{

@@ -20,7 +20,7 @@ boolean ----> true/false
             char        2 bytes     Stores a single character/letter
 */
 
-public class Program2_DataTypes {
+public class DataTypes {
 
 	public static void main(String[] args) {
 		

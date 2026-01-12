@@ -17,7 +17,7 @@ Binary operators + - * / % > >= < <= != == && ||
 ternary operations ? :
  */
 
-public class Program3_Operators {
+public class Operators {
 
 	public static void main(String[] args) {
 		

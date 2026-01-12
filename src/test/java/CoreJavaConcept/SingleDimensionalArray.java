@@ -12,7 +12,7 @@ We can store multiple values into a single variable.
 5) read multiple values from an array
 */
 
-public class Program17_SingleDimensionalArray {
+public class SingleDimensionalArray {
 
 	public static void main(String[] args) {
 		
