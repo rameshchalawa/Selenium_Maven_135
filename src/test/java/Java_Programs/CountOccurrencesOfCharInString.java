@@ -1,10 +1,29 @@
 package Java_Programs;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class CountOccurrencesOfCharInString {
 
 	public static void main(String[] args) {
 		
-		String str = "testing";
+		//Approach1
+		
+        String str = "testing";
+		
+		Map<Character , Integer> map = new LinkedHashMap<>();
+		
+		for(char ch : str.toCharArray()) {
+			map.put(ch,map.getOrDefault(ch,0)+1);
+		}
+		for(Map.Entry<Character,Integer>entry:map.entrySet()) {
+			System.out.println(entry.getKey()+" -- "+entry.getValue());
+		}
+		
+		
+		//Approach 2
+		
+		/*String str = "testing";
 		
 		for(int i = 0; i<str.length(); i++) {
 			
@@ -24,6 +43,7 @@ public class CountOccurrencesOfCharInString {
 		}
 		System.out.println(ch+"-----> "+count);
 		}
+		*/
 
 	}
 
