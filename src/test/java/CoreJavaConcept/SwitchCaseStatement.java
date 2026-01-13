@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program9_SwitchCaseStatement {
+public class SwitchCaseStatement {
 
 	public static void main(String[] args) {
 		

@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program7_PositiveOrNegativeNumber 
+public class PositiveOrNegativeNumber 
 
 {
 

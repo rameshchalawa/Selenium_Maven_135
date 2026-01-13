@@ -1,6 +1,6 @@
 package CoreJavaConcept;
 
-public class Program8_LargestOf3Numbers {
+public class LargestOf3Numbers {
 
 	public static void main(String[] args) {
 		
