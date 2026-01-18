@@ -18,6 +18,7 @@ class Dog extends Animal {
     void eat()
     {
     	//System.out.println("eating dosa....");
+    	
     	super.eat(); //super keyword will be used to invoke the immediate parent class method.
     }
 }
