@@ -4,22 +4,30 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class CountOccurrencesOfCharInString {
-
-	public static void main(String[] args) {
-		
-		//Approach1
-		
+	
+    public static void main(String[] args) {
+    	
+        //Approach 1
         String str = "testing";
-		
-		Map<Character , Integer> map = new LinkedHashMap<>();
-		
-		for(char ch : str.toCharArray()) {
-			map.put(ch,map.getOrDefault(ch,0)+1);
-		}
-		for(Map.Entry<Character,Integer>entry:map.entrySet()) {
-			System.out.println(entry.getKey()+" -- "+entry.getValue());
-		}
-		
+        
+        // Create a LinkedHashMap to store character frequencies
+        Map<Character, Integer> map = new LinkedHashMap<>();
+        
+        // Iterate over each character in the input string
+        for (char ch : str.toCharArray()) {
+        	
+            // Increment the count of the character in the map
+            // If character is not present, default count is 0
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
+        }
+        
+        // Iterate over the map entries and print character frequencies
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+            // Print character and its frequency
+            System.out.println(entry.getKey() + " -- " + entry.getValue());
+        }
+    }
+
 		
 		//Approach 2
 		
@@ -46,5 +54,3 @@ public class CountOccurrencesOfCharInString {
 		*/
 
 	}
-
-}  
