@@ -1,23 +1,24 @@
 package Java_Programs;
 
 public class CountTheWords {
-
-	public static void main(String[] args) {
-		
-		//Approach1
-		
-		String s = "Java is platform independent";
-		
-		int count=1;
-        for(int i=0;i<s.length()-1;i++)
-        {
-            if( (s.charAt(i)==' ') && (s.charAt(i+1)!=' ') )
-            {
+    public static void main(String[] args) {
+    	
+        // Approach 1: 
+    	//Counting words in a string by tracking spaces
+        String s = "Java is platform independent";
+        int count = 1; // Initialize word count to 1 (assuming at least one word)
+        
+        // Iterate through the string, checking for spaces
+        for (int i = 0; i < s.length() - 1; i++) {
+        	
+            // If a space is found and the next character is not a space, increment word count
+            if ((s.charAt(i) == ' ') && (s.charAt(i + 1) != ' ')) {
                 count++;
             }
         }
-        System.out.println("Number of words in a string:"+ count);
-		
+        
+        // Print the total word count
+        System.out.println("Number of words in a string: " + count);
 
 		
 		//Approach2
