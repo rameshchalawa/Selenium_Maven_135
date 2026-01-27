@@ -1,10 +1,40 @@
 package Java_Programs;
 
-public class Palindrome {
+//Check if a string is a palindrome
 
-	public static void main(String[] args) {
+public class Palindrome {
+ public static void main(String[] args) {
+	 
+     // Approach 1: Two-pointer technique
+     String str = "radar";
+     
+     // Initialize left and right pointers
+     int left = 0;
+     int right = str.length() - 1;
+     
+     // Flag to track if string is palindrome
+     boolean isPalindrome = true;
+     
+     // Compare chars from start and end 
+     while (left < right) {
+         if (str.charAt(left) != str.charAt(right)) {
+             // Mismatch found, not a palindrome
+             isPalindrome = false;
+             break;
+         }
+         // Move pointers towards center
+         left++;
+         right--;
+     }
+     
+     // Print result
+     System.out.println(isPalindrome ? "This is a Palindrome" : "This is not a Palindrome");
+
 		
-		String str1 = "radar";
+
+		
+		//Approach2
+		/*String str1 = "radar";
 		String str2 = "";
 		
 		for(int i =str1.length()-1; i>=0; i--) {
@@ -17,7 +47,7 @@ public class Palindrome {
 		}
 		else {
 			System.out.println("This is not Palindrome");
-		}
+		}*/
 
 	}
 
