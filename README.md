@@ -15,9 +15,13 @@ Project Structure
 Libraries and Frameworks
 
 -Selenium - Web automation
+
 -Maven - Build and package management
+
 -TestNG - Test execution
+
 -Extent Report - Report Generation
+
 -Log4j2 - Test logging
 
 Getting Started
@@ -30,4 +34,5 @@ Getting Started
 Key Features- Page Object Factory:
 
 -Implements Page Object Model for efficient test development
+
 -CI/CD Integration: Supports continuous integration
