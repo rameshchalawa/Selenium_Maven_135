@@ -4,6 +4,11 @@ A Selenium automation framework built with Maven, designed for web application t
 Overview
 This project uses Selenium WebDriver with Java and Maven for dependency management. It is test automation framework for a web application, with a focus on ease of use and scalability.
 
+Folder Structure
+
+<img width="402" height="575" alt="image" src="https://github.com/user-attachments/assets/8e20c4e1-ca67-438e-a181-26ac66867e8a" />
+
+
 Project Structure
 
 - src/test/java/pageObjects: Page Object Classes for Framework
