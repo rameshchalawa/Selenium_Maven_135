@@ -13,6 +13,7 @@ Project Structure
 - pom.xml: Maven configuration file
 
 Libraries and Frameworks
+
 -Selenium - Web automation
 -Maven - Build and package management
 -TestNG - Test execution
@@ -20,11 +21,13 @@ Libraries and Frameworks
 -Log4j2 - Test logging
 
 Getting Started
+
 1. Clone the repository: git clone https://github.com/rameshchalawa/Selenium_Maven_135.git
 2. Import the project into your IDE as a Maven project
 3. Update dependencies in pom.xml
 4. Run tests using Maven: mvn test
 
-Key Features- Page Object Factory: 
+Key Features- Page Object Factory:
+
 -Implements Page Object Model for efficient test development
 -CI/CD Integration: Supports continuous integration
