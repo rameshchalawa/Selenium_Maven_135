@@ -2,7 +2,8 @@ Selenium_Maven_135
 A Selenium automation framework built with Maven, designed for web application testing.
 
 Overview
-This project uses Selenium WebDriver with Java and Maven for dependency management. It is test automation framework for a web application, with a focus on ease of use and scalability.
+
+This project uses Web automation framework built with Selenium, managed via Maven, executed with TestNG, and enriched with Extent Reports & Log4j2 logging. Implements Page Object Model for efficient test development with a focus on ease of use and scalability.
 
 Folder Structure
 
