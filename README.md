@@ -1,14 +1,13 @@
 #**Selenium_Maven_135**  
 
-Web automation framework built with Selenium, managed via Maven, executed with TestNG, and enriched with Extent Reports & Log4j2 logging.  
-Implements Page Object Model for efficient test development with a focus on ease of use and scalability.  
+Web automation framework built with Selenium, managed via Maven, executed with TestNG, and enriched with Extent Reports & Log4j2 logging.Implements Page Object Model for efficient test development with a focus on ease of use and scalability.  
 
 **Overview**    
 This project uses Web automation framework built with Selenium, managed via Maven, executed with TestNG, and enriched with Extent Reports & Log4j2 logging. Implements Page Object Model for efficient test development with a focus on ease of use and scalability.  
 
 **Folder Structure**  
 
-<img width="402" height="575" alt="image" src="https://github.com/user-attachments/assets/8e20c4e1-ca67-438e-a181-26ac66867e8a" />
+<img width="402" height="575" alt="image" src="https://github.com/user-attachments/assets/8e20c4e1-ca67-438e-a181-26ac66867e8a" />  
 
 
 **Project Structure**  
