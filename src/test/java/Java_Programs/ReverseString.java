@@ -6,21 +6,7 @@ public class ReverseString {
 		
 		//Approach1 
 		
-		/*String s = "selenium";
-		
-		String rev ="";
-		
-		for(int i=s.length()-1;i>=0; i--) {
-			
-			rev = rev + s.charAt(i);
-		}
-        System.out.println("Reverse string is: "+ rev);
-        */
-		
-		
-		//Approach2 - by converting string to char array type
-		
-		/*String s="welcome";
+		String s="welcome";
 		String rev="";
 
 		char a[]=s.toCharArray();
@@ -31,10 +17,22 @@ public class ReverseString {
 		}
 
 		System.out.println("Reverse string is:"+ rev);
-		*/
 		
 		
 		
+		//Approach2 - by converting string to char array type
+		
+		/*String s = "selenium";
+		
+		String rev ="";
+		
+		for(int i=s.length()-1;i>=0; i--) {
+			
+			rev = rev + s.charAt(i);
+		}
+        System.out.println("Reverse string is: "+ rev);
+        */
+			
         
 	}
 
