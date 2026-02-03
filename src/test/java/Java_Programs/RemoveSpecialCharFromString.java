@@ -6,7 +6,7 @@ public class RemoveSpecialCharFromString {
 		
 		// Input string with special characters
 		
-        String str = "S?u/j!e@e#t";
+        String str = "R?a/m!e@s#h";
         
         String str2 = ""; // Initialize an empty string to store the result
 

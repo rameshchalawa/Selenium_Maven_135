@@ -112,13 +112,13 @@ public class ExtentReportManager implements ITestListener {
 	email.setDataSourceResolver(new DataSourceUrlResolver(url));
 	email.setHostName("smtp.googlemail.com");
 	email.setSmtpPort(465);
-	email.setAuthenticator(new DefaultAuthenticator("pavanoltraining@gmail.com", "password"));
+	email.setAuthenticator(new DefaultAuthenticator("rameshchalawa@gmail.com", "password"));
 	email.setSSLOnConnect(true);
-	email.setFrom("pavanoltraining@gmail.com");         
+	email.setFrom("rameshchalawa@gmail.com");         
 	email.setSubject("//Sender
 	email.setSubject("Test Results");
 	email.setMsg("Please find Attached Report...");
-	email.addTo("pavankumar.busyqa@gmail.com");           
+	email.addTo("chalwaindia@gmail.com");           
 	email.attach(url, "//Receiver
 	email.attach(url, "extent report", "please check report...");
 	email.send(); // send the email
