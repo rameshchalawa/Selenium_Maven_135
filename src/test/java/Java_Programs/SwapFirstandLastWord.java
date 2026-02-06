@@ -4,18 +4,21 @@ public class SwapFirstandLastWord {
 
 	public static void main(String[] args) {
 		
-		String str = "selenium is fun";
-		String[] wd = str.split(" ");
-		
-		String str2 = "";
-		
-		for(int i = wd.length-1; i>=0; i--) {
-			str2 +=wd[i]+" ";
-		}
-		
+		// Input string
+        String str = "selenium is the fun";
         
-        System.out.println(str2.trim());
-
-	}
-
+        // Split the string into words using space as delimiter
+        String[] wd = str.split(" ");
+        
+        // Swap the first and last words
+        String temp = wd[0];
+        wd[0] = wd[wd.length - 1];
+        wd[wd.length - 1] = temp;
+        
+        // Join the words back into a string
+        String str2 = String.join(" ", wd);
+        
+        // Print the resulting string
+        System.out.println(str2);
+    }
 }

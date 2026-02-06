@@ -11,7 +11,7 @@ public class SortListAscDesc {
 		// Create a list of strings
         List<String> lt = Arrays.asList("Java", "API", "Selenium", "Playwright");
         
-        // Sort the list in ascending order (lexicographically)
+        // Sort the list in ascending order (alphabetical order)
         Collections.sort(lt);
         System.out.println("Ascending : " + lt);
         
