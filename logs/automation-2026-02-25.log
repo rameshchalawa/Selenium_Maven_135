@@ -1,0 +1,49 @@
+14:24:49.883 [TestNG-tests-2] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+14:24:50.345 [TestNG-tests-2] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
+14:24:50.357 [TestNG-tests-2] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
+14:24:50.363 [TestNG-tests-1] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+14:24:50.474 [TestNG-tests-1] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+14:24:50.886 [TestNG-tests-1] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
+14:24:50.889 [TestNG-tests-1] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
+14:27:11.032 [TestNG-tests-1] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+14:27:11.034 [TestNG-tests-2] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+14:27:11.558 [TestNG-tests-1] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+14:27:11.645 [TestNG-tests-2] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+14:27:57.654 [TestNG-tests-1] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+14:27:57.738 [TestNG-tests-2] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+14:27:58.005 [TestNG-tests-1] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+14:27:58.071 [TestNG-tests-2] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+14:30:42.459 [main] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+14:30:42.618 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+14:30:43.019 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
+14:30:43.030 [main] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
+14:30:44.388 [main] INFO  testCases.TC01_AccountRegistrationTest - Validating Expected Message...
+14:30:44.439 [main] INFO  testCases.TC01_AccountRegistrationTest - ** TC01_AccountRegistrationTest Execution Completed **
+14:30:46.625 [main] INFO  testCases.TC02_LoginTest - ** Startign TC02_LoginTest **
+14:30:48.417 [main] INFO  testCases.TC02_LoginTest - **  TC02_LoginTest Execution Completed **
+14:31:54.809 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\workspaces\Selenium Java\Selenium_Maven_135\masterregression.xml"
+14:31:58.169 [main] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+14:31:58.444 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+14:31:58.791 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
+14:31:58.794 [main] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
+14:32:00.135 [main] INFO  testCases.TC01_AccountRegistrationTest - Validating Expected Message...
+14:32:00.189 [main] INFO  testCases.TC01_AccountRegistrationTest - ** TC01_AccountRegistrationTest Execution Completed **
+14:32:02.420 [main] INFO  testCases.TC02_LoginTest - ** Startign TC02_LoginTest **
+14:32:04.138 [main] INFO  testCases.TC02_LoginTest - **  TC02_LoginTest Execution Completed **
+18:09:50.134 [main] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+18:09:50.427 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+18:09:50.933 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
+18:09:50.937 [main] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
+18:09:53.093 [main] INFO  testCases.TC01_AccountRegistrationTest - Validating Expected Message...
+18:09:53.151 [main] INFO  testCases.TC01_AccountRegistrationTest - ** TC01_AccountRegistrationTest Execution Completed **
+18:09:55.411 [main] INFO  testCases.TC02_LoginTest - ** Startign TC02_LoginTest **
+18:09:57.004 [main] INFO  testCases.TC02_LoginTest - **  TC02_LoginTest Execution Completed **
+17:02:01.602 [main] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
+17:02:01.890 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
+17:02:02.384 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
+17:02:02.389 [main] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
+17:02:04.394 [main] INFO  testCases.TC01_AccountRegistrationTest - Validating Expected Message...
+17:02:04.453 [main] INFO  testCases.TC01_AccountRegistrationTest - ** TC01_AccountRegistrationTest Execution Completed **
+17:02:08.059 [main] INFO  testCases.TC02_LoginTest - ** Startign TC02_LoginTest **
+17:02:09.839 [main] INFO  testCases.TC02_LoginTest - **  TC02_LoginTest Execution Completed **
+15:34:29.789 [main] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
