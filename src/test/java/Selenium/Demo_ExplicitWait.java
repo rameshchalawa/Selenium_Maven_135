@@ -9,6 +9,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/*
+Explicit Wait is a conditional wait which is applicable for specific web element in the script.
+1) Conditional based, it will work more effectively.
+2) Finding element is inclusive (for some conditions)
+3) It will wait for condition to be true, then consider the time
+4) We need to write multiple statements for multiple elements.
+ */
+
 public class Demo_ExplicitWait {
 
 	public static void main(String[] args) {

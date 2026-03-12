@@ -1,7 +1,6 @@
 package Selenium;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
@@ -9,8 +8,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-
 import com.google.common.base.Function;
+
+/*
+ Fluent Wait is a conditional wait which is applicable for specific web element in the script.
+ 1) Conditional based, it will work more effectively.
+ 2) Finding element is inclusive (for some conditions)
+ 3) We can specify the polling time and exception to ignore.
+ */
 
 public class Demo_FluentWait {
 
