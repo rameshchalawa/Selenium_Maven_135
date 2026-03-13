@@ -9,6 +9,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+/*
+SwitchTo command is used to switch the control from one window to another window, frame or alert.
+getWindowHandle() - returns ID of the single Browser window
+getWindowHandles() - returns ID's of the multiple browser windows 
+ */
+
 public class Demo_switchToCommand {
 
 	public static void main(String[] args) {

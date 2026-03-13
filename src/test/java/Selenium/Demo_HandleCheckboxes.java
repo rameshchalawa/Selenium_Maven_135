@@ -26,7 +26,7 @@ public class Demo_HandleCheckboxes {
 	    	checkboxes.get(i).click();
 	    }*/
 	    
-	    //With Enhanced for loop
+	    //With Enhanced for loop                   //recommended
 	    /*for(WebElement checkbox:checkboxes)
 	    {
 	    	checkbox.click();
