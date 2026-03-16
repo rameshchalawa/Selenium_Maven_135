@@ -8,6 +8,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+/*
+ Hidden drop down options are not visible in html DOM. 
+ We can capture the options of hidden drop down using findElements() method 
+ and we need to turn on the debugger to freeze the screen to capture the xpath of dropdown options. 
+ */
+
 public class Demo_HandleHiddenDropDown {
 
 	public static void main(String[] args) throws InterruptedException {

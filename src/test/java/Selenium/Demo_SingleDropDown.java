@@ -9,6 +9,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+/*
+ getOptions() method of Select class is used to capture all the options from the drop down and it returns list of WebElements.
+ 
+ */
+
 public class Demo_SingleDropDown {
 
 	public static void main(String[] args) {
