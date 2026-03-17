@@ -39,7 +39,8 @@ public class Demo_HandleDynamicPaginationWebTable {
 		//Showing 1 to 10 of 19081 (1909 Pages)
 		String text=driver.findElement(By.xpath("//div[contains(text(),'Pages')]")).getText();
 		
-		int total_pages=Integer.parseInt(text.substring(text.indexOf("(")+1,text.indexOf("Pages")-1));
+		int total_pages=Integer.parseInt(text.substring(text.indexOf("(")+1,text.indexOf("Pages")-1)); 
+		//index of ( is 11 and index of P is 17, so we need to -1 to get the correct page number
 		
 		//repeating pages
 		for(int p=1;p<=5;p++)

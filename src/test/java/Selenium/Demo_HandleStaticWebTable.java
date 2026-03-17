@@ -38,7 +38,7 @@ public class Demo_HandleStaticWebTable {
 		
 		/*System.out.println("BookName"+"\t"+"Author"+"\t"+"Subject"+"\t"+"Price");
 		
-		for(int r=2;r<=rows;r++)
+		for(int r=2;r<=rows;r++) //for rows we are starting with 2 because 1st row is header row, so we need to start with 2nd row
 		{
 		   for(int c=1;c<=cols;c++)
 		   {
