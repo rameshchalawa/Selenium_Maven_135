@@ -7,6 +7,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 
+/*
+Actions Vs Action
+Actions -- class, will be used to perform mouse actions,
+Action --- interface, will be used to store created actions.
+*/
+
 public class Demo_ActionsVsAction {
 
 	public static void main(String[] args) {
@@ -18,14 +24,9 @@ public class Demo_ActionsVsAction {
 	    
 	    WebElement button=driver.findElement(By.xpath("//span[@class='context-menu-one btn btn-neutral']"));
 	    
-	    /*Actions Vs Action
-	    Actions -- class, will be used to perform mouse actions,
-	    Action --- interface, will be used to store created actions.
-	    */
-	    
 	    Actions act=new Actions(driver);
 	    
-	    Action myaction = act.contextClick(button).build(); //creating an action and stroing into a variable
+	    Action myaction = act.contextClick(button).build(); //creating an action and storing into a variable
 	    
 	    myaction.perform(); //we are performing action
 

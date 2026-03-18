@@ -6,6 +6,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+/*
+ Mouse hover action is used to perform mouse hover on an element. 
+ It is used to handle hidden elements which are visible only after mouse hover.
+ Actions class provides the method moveToElement() to perform mouse hover action.
+ .perform() method is used to complete the action. also it can build and perform the action in one line. 
+ .build() method is used to create the action. It is optional.
+ */
+
 public class Demo_MouseHoverAction {
 
 	public static void main(String[] args) {
@@ -23,7 +31,7 @@ public class Demo_MouseHoverAction {
 		//Mouse hover
 		//act.moveToElement(desktops).moveToElement(mac).click().build().perform();
 
-		act.moveToElement(desktops).moveToElement(mac).perform();
+		act.moveToElement(desktops).moveToElement(mac).click().perform();
 
 	}
 

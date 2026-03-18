@@ -6,6 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+/*
+ Mouse drag and drop action is used to perform drag and drop operation on an element. 
+ It is used to handle events which are triggered after drag and drop.
+ Actions class provides the method dragAndDrop() to perform mouse drag and drop action.
+ */
+
 public class Demo_MouseDragAndDropAction {
 
 	public static void main(String[] args) {

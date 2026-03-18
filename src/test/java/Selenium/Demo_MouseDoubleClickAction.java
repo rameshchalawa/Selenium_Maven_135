@@ -6,6 +6,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
+/*
+ Mouse double click action is used to perform double click on an element.
+ It is used to handle events which are triggered after double click.
+ Actions class provides the method doubleClick() to perform mouse double click action.
+ */
+
 public class Demo_MouseDoubleClickAction {
 
 	public static void main(String[] args) {
@@ -30,7 +36,7 @@ public class Demo_MouseDoubleClickAction {
 	    act.doubleClick(button).perform();
 
 	    //validation : box2 should contains �WELCOME�
-	    String text=box2.getAttribute("value");
+	    String text=box2.getAttribute("value"); // to capture value from input box we use getAttribute("value") method instead of getText() method
 	    System.out.println("captureed value is:"+ text);
 
 	    if(text.equals("WELCOME"))
