@@ -9,15 +9,15 @@ public class Demo_TabsAndWindows {
 
 	public static void main(String[] args) {
 		
-		WebDriver driver=new ChromeDriver();
-		
-		driver.get("//www.opencart.com/");
+		WebDriver driver=new ChromeDriver();		
+		driver.get("https://orangehrm.com/");		
+		driver.manage().window().maximize();
 
-        //Selenium4.x
-        //driver.switchTo().newWindow(WindowType.TAB); //opens new tab
-        driver.switchTo().newWindow(WindowType.WINDOW); //open new window
+        
+        driver.switchTo().newWindow(WindowType.TAB); //opens new tab
+        //driver.switchTo().newWindow(WindowType.WINDOW); //open new window
 
-        driver.get("https://orangehrm.com/");
+        driver.get("https://orangehrm.com/en/book-a-free-demo/");
 
 	}
 

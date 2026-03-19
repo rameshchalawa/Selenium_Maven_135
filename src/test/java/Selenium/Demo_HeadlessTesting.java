@@ -21,7 +21,7 @@ public class Demo_HeadlessTesting {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--headless=new"); //setting for headless mode of execution
 		
-		    WebDriver driver=new ChromeDriver(options); 
+		    WebDriver driver=new ChromeDriver(options); //passing options object to the ChromeDriver constructor to enable headless mode
 		 
 		    driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		    

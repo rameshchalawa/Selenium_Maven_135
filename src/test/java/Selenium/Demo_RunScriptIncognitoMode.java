@@ -10,7 +10,7 @@ public class Demo_RunScriptIncognitoMode {
 		// Run script in Incognito browser
 		
 		ChromeOptions options=new ChromeOptions();
-		options.addArguments("--incognito");
+		options.addArguments("--incognito"); // incognito mode
 		
 		WebDriver driver=new ChromeDriver(options); 
 		 
