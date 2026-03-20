@@ -9,10 +9,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
 /*
- 1) open application
- 2) test logo presence
- 3) login
- 4) close
+1. TestNG execute test methods based on alphabetical order.
+2. @Test(priority=num) controls the order of execution.
+3. Once you provide priority to the test methods, then order of methods is not considered.
+4. priorities can be random numbers( no need to have consecutive numbers).
+5. If you dont provide priority then default value is Zero (0).
+6. If the priorities are same then again execute methods in alphabetical order.
+7. Negative values are allowed in priority.
+8. TestNG execute test methods only if they are having @Test annotation.
  */
 
 public class OrangeHRMTest {

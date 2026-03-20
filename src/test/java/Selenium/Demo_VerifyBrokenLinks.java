@@ -11,10 +11,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /* 
+ BrokenLink: It doesn't have any resource in the server. It can be identified by status code>=400
 1) Link  href="https://xyz.com"
-
 2) https://xyz.com  ---> server ---> status code
-
 3) status code>=400  broken link(doesn't have any resource in the server)
    status code <400  not a broken link
 */
@@ -52,7 +51,7 @@ public class Demo_VerifyBrokenLinks {
 				HttpURLConnection conn=(HttpURLConnection) linkURL.openConnection(); // open connection to the server
 				conn.connect(); //connect to server and sent request to the server
 
-				if(conn.getResponseCode()>=400)
+				if(conn.getResponseCode()>=400) 
 				{
 					System.out.println(hrefattValue+" =====> Broken link");
 					noOfBrokenLinks++;
