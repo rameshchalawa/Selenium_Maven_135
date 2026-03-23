@@ -13,6 +13,7 @@ public class HardVsSoftAssert {
 		System.out.println("testign......");
 		System.out.println("testign......");
 		Assert.assertEquals(1, 2); //hard assertion Here, when assert is failed remaining statement will not get execute
+		//Always use hard assertion end of the test case so that all statements get execute and if any assertion is failed then test case will be marked as failed.
 		System.out.println("testing....");
 		System.out.println("testing....");
 	}
@@ -29,6 +30,6 @@ public class HardVsSoftAssert {
 		System.out.println("testing....");
 		System.out.println("testing....");
 		
-		sa.assertAll();
+		sa.assertAll(); //mandatory. it will check all the soft assertion and if any assertion is failed then test case will be marked as failed.
 	}
 }

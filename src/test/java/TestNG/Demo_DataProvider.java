@@ -9,6 +9,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 
+/*
+ Data provider is used to run the same test method with different sets of data. It is a method that returns an array of objects and is annotated with @DataProvider.
+ step 1) create a method and annotate it with @DataProvider and return type should be Object[][]
+ step 2) pass the name of data provider method in test method using dataProvider attribute of @Test annotation
+ step 3) run the test case and it will execute for all sets of data provided by
+ 		 data provider method.
+ 		 
+ */
 public class Demo_DataProvider {
 	
 	WebDriver driver;
