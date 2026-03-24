@@ -20,6 +20,13 @@ import org.testng.annotations.Parameters;
 import org.apache.logging.log4j.LogManager; //Log4j
 import org.apache.logging.log4j.Logger;    //Log4j
 
+/*
+ This BaseClass will be the parent class for all the test classes in the project. 
+ It will contain the common code for all the test classes such as setup and teardown methods, 
+ and also some utility methods for generating random data and capturing screenshots. 
+ achieving code reusability and maintainability by centralizing the common code in a single class.
+ */
+
 public class BaseClass {
 	
 	public static WebDriver driver;
@@ -32,7 +39,7 @@ public class BaseClass {
 	{
 		//Loading config.properties file
 		FileReader file=new FileReader("./src//test//resources//config.properties");
-		Properties p=new Properties();
+	    p=new Properties();
 		p.load(file);
 		
 	    logger=LogManager.getLogger(this.getClass()); //LOG402
@@ -41,10 +48,11 @@ public class BaseClass {
 	    {
 	        case "chrome" : driver=new ChromeDriver(); break;
 	        case "edge" : driver=new EdgeDriver(); break;
-	        default : System.out.println("Invalid browser name.."); return;
+	        default : System.out.println("Invalid browser name.."); return; 
+	        //return statement is used to exit the method if the browser name is invalid, so that the rest of the code in the method will not be executed.
 	    }
 	    
-	    driver.manage().deleteAllCookies();
+	    driver.manage().deleteAllCookies(); // to delete all the cookies before starting the test execution
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    driver.get(p.getProperty("appURL"));  //Reading url from config.properties file.
 	    driver.manage().window().maximize();
@@ -72,7 +80,7 @@ public class BaseClass {
 	{
 	    String generatedstring=RandomStringUtils.randomAlphabetic(3);
 	    String generatednumber=RandomStringUtils.randomNumeric(3);
-	    return (generatedstring+"@"+generatednumber);
+	    return (generatedstring+"@"+generatednumber); // to generate random alphanumeric string in the format
 	}
 	
 	public String captureScreen(String tname) throws IOException {

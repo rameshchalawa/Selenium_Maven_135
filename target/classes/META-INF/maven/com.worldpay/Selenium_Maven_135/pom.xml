@@ -54,14 +54,14 @@
     <version>4.36.0</version>
 </dependency>
 
-  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi for Excel file -->
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi</artifactId>
     <version>5.5.1</version>
 </dependency>
 
-  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+  <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml for Excel file -->
 <dependency>
     <groupId>org.apache.poi</groupId>
     <artifactId>poi-ooxml</artifactId>
@@ -70,21 +70,22 @@
 
 
 
-<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core for logging -->
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-core</artifactId>
     <version>2.25.3</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api for logging -->
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-api</artifactId>
     <version>2.25.3</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
+<!-- To avoid this cansole error add below dependency SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder". -->
+<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl for logging -->
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-slf4j-impl</artifactId>
@@ -101,7 +102,7 @@
     <version>2.21.0</version>
 </dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 for RandomStringUtils generate randomString-->
 <dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-lang3</artifactId>

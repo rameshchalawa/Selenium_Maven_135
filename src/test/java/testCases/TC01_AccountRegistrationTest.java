@@ -31,7 +31,7 @@ public class TC01_AccountRegistrationTest extends BaseClass {
 	    regpage.setEmail(randomString() + "@gmail.com"); // randomly generated the email
 	    regpage.setTelephone(randomNumber());
 	    
-	    String password = randomAlphaNumeric();
+	    String password = randomAlphaNumeric(); //store the randomly generated password in a variable to use it in both password and confirm password fields
 	    regpage.setPassword(password);
 	    regpage.setConfirmPassword(password);
 

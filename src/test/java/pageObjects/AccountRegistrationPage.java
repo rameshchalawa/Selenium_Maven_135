@@ -8,7 +8,7 @@ public class AccountRegistrationPage extends BasePage {
 	
 	public AccountRegistrationPage(WebDriver driver)
 	{
-		super(driver);
+		super(driver); // calling the constructor of the parent class (BasePage) to initialize the driver variable in the BasePage class
 	}
 
 
@@ -75,7 +75,7 @@ public class AccountRegistrationPage extends BasePage {
 	
 	public String getConfirmationMsg() {
 	    try {
-	        return (msgConfirmation.getText());
+	        return (msgConfirmation.getText()); // This will return the text of the confirmation message element, which can be used to verify if the account registration was successful.
 	    } catch (Exception e) {
 	        return (e.getMessage());
 	    }

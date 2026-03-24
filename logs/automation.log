@@ -1,31 +1,18 @@
-15:34:29.997 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
-15:34:30.473 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
-15:34:30.478 [main] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
-15:34:32.334 [main] INFO  testCases.TC01_AccountRegistrationTest - Validating Expected Message...
-15:34:32.401 [main] INFO  testCases.TC01_AccountRegistrationTest - ** TC01_AccountRegistrationTest Execution Completed **
-15:34:36.144 [main] INFO  testCases.TC02_LoginTest - ** Startign TC02_LoginTest **
-15:34:38.217 [main] INFO  testCases.TC02_LoginTest - **  TC02_LoginTest Execution Completed **
-21:16:04.439 [main] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
-21:16:04.672 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
-21:16:05.046 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
-21:16:05.049 [main] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
-21:16:07.035 [main] INFO  testCases.TC01_AccountRegistrationTest - Validating Expected Message...
-21:16:07.083 [main] INFO  testCases.TC01_AccountRegistrationTest - ** TC01_AccountRegistrationTest Execution Completed **
-21:16:09.675 [main] INFO  testCases.TC02_LoginTest - ** Startign TC02_LoginTest **
-21:16:11.306 [main] INFO  testCases.TC02_LoginTest - **  TC02_LoginTest Execution Completed **
-18:55:12.557 [main] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
-18:55:12.756 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
-18:55:13.134 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
-18:55:13.137 [main] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
-18:55:15.359 [main] INFO  testCases.TC01_AccountRegistrationTest - Validating Expected Message...
-18:55:15.420 [main] INFO  testCases.TC01_AccountRegistrationTest - ** TC01_AccountRegistrationTest Execution Completed **
-18:55:18.104 [main] INFO  testCases.TC02_LoginTest - ** Startign TC02_LoginTest **
-18:55:20.173 [main] INFO  testCases.TC02_LoginTest - **  TC02_LoginTest Execution Completed **
-17:44:09.275 [main] INFO  testCases.TC01_AccountRegistrationTest - ** Starting TC01_AccountRegistrationTest **
-17:44:09.436 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on MyAccount Link 
-17:44:09.908 [main] INFO  testCases.TC01_AccountRegistrationTest - Clicked on Register Link 
-17:44:09.915 [main] INFO  testCases.TC01_AccountRegistrationTest - Providing customer details...
-17:44:11.545 [main] INFO  testCases.TC01_AccountRegistrationTest - Validating Expected Message...
-17:44:11.598 [main] INFO  testCases.TC01_AccountRegistrationTest - ** TC01_AccountRegistrationTest Execution Completed **
-17:44:14.380 [main] INFO  testCases.TC02_LoginTest - ** Startign TC02_LoginTest **
-17:44:16.058 [main] INFO  testCases.TC02_LoginTest - **  TC02_LoginTest Execution Completed **
+16:13:03.661 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+16:13:03.712 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:13:03.714 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:13:03.715 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:13:03.727 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+16:13:03.768 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:13:03.769 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:13:03.771 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:13:03.787 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+16:13:03.816 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+16:13:03.817 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+16:13:03.818 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+16:13:03.833 [main] DEBUG org.apache.poi.ooxml.POIXMLFactory - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+16:13:03.868 [main] INFO  testCases.TC03_LoginDTT - ***** stating TC03_LoginDDT ******
+16:13:15.756 [main] INFO  testCases.TC03_LoginDTT - ***** stating TC03_LoginDDT ******
+16:13:25.952 [main] INFO  testCases.TC03_LoginDTT - ***** stating TC03_LoginDDT ******
+16:13:36.240 [main] INFO  testCases.TC03_LoginDTT - ***** stating TC03_LoginDDT ******
+16:13:46.578 [main] INFO  testCases.TC03_LoginDTT - ***** stating TC03_LoginDDT ******

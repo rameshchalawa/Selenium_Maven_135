@@ -6,3 +6,19 @@
 //inheritance ------> overriding
 //data abstraction ----> interface, abstract class
 
+//Automation Frameworks:
+//Objective:
+//1.Re-usability
+//2.Maintainability
+//3.Reliability
+
+//Phases/stages of Automation Framework:
+// 1. Analyzing the application under test
+   //-No. of pages
+   //-what are the elements on the page
+   //-what to be automated/not automated
+
+//2.Choose test cases for automation
+//3.|Design & development of automation framework
+//4.Test execution - local, remotely.
+//5.Maintenance of automation framework

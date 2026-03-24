@@ -23,10 +23,8 @@ public class TC02_LoginTest extends BaseClass {
 
 			//Login
 			LoginPage lp=new LoginPage(driver);
-			//lp.setEmail(p.getProperty("email"));
-			lp.setEmail("chalwaindia@gmail.com");
-			//lp.setPassword(p.getProperty("password"));
-			lp.setPassword("Password1234");
+			lp.setEmail(p.getProperty("email")); // email is read from config.properties file using the Properties class object 'p' which is initialized in the BaseClass
+			lp.setPassword(p.getProperty("password")); // password is read from config.properties file using the Properties class object 'p' which is initialized in the BaseClass
 			lp.clickLogin();
             
 			//MyAccount
