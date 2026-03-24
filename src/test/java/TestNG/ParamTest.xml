@@ -4,6 +4,7 @@
   
     <test name="chrometest">
     <parameter name="browser" value="Chrome"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
     <classes>
       <class name="TestNG.ParamTest"/>
     </classes>
@@ -11,6 +12,7 @@
   
     <test name="edgetest">
     <parameter name="browser" value="Edge"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"/>
     <classes>
       <class name="TestNG.ParamTest"/>
     </classes>

@@ -56,7 +56,7 @@ public class Demo_DataProvider {
 		driver.close();
 	}
 	
-	@DataProvider(name="dp", indices= {0,3})
+	@DataProvider(name="dp", indices= {0,3,4}) // to run specific sets of data, we can use indices attribute and pass the index of data sets we want to run
 	Object[][] loginData()
 	{
 		Object data[][]= {

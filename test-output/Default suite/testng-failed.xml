@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.dependsOnMethods">
+      <class name="TestNG.OrangeHRM">
         <methods>
-          <include name="login"/>
-          <include name="openapp"/>
-          <include name="logout"/>
-          <include name="search"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="testAppUrl"/>
+          <include name="testHomePageTitle"/>
         </methods>
-      </class> <!-- TestNG.dependsOnMethods -->
+      </class> <!-- TestNG.OrangeHRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
