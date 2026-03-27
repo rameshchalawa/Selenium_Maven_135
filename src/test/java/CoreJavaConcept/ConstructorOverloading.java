@@ -1,6 +1,9 @@
 package CoreJavaConcept;
 
-//We can achieve polymorphism by using ConstructorOverloading
+/*We can achieve polymorphism by using ConstructorOverloading
+Constructor overloading - when a class has more than one constructor with different parameters, 
+it is called constructor overloading. It is used to initialize objects in different ways.
+*/
 
 public class ConstructorOverloading {
 	

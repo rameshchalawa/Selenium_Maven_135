@@ -2,6 +2,15 @@ package CoreJavaConcept;
 
 import java.util.Scanner;
 
+/*
+Scanner class - used to take input from user at runtime.
+To use Scanner class we need to import java.util.Scanner package.
+1. nextInt() - to take integer input
+2. nextDouble() - to take decimal input
+3. next() - to take string input (it will take only single word)
+4. nextLine() - to take string input (it will take multiple words)
+*/
+
 public class ScannerClass {
 
 	public static void main(String[] args) {

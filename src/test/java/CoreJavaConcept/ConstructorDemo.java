@@ -8,8 +8,7 @@ package CoreJavaConcept;
 4. Constructor can take parameters/arguments
 5. Constructor automatically invoked at the time of object creation.
 6. Used for initializing the values of the variables.
- 
- */
+*/
 
 public class ConstructorDemo {
 	

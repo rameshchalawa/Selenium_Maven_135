@@ -2,6 +2,12 @@ package CoreJavaConcept;
 
 import java.util.LinkedList;
 
+/*
+LinkedList - It is a class which implements List and Deque interfaces. 
+It is based on the doubly linked list data structure. It can contain duplicate elements. 
+It maintains insertion order. It is not synchronized. It can be used as a list, stack or queue.
+*/
+
 public class Collection_LinkedList {
 
 	public static void main(String[] args) {

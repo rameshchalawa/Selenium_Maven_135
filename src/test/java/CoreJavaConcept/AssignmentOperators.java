@@ -8,8 +8,8 @@ public class AssignmentOperators {
 	    
 		//ex1
 		/*int a=10;
-		  //a+=5;   //a=a+5;
-		  //a-=5    //a=a-5;
+		  a+=5;   //a=a+5; 15
+		  a-=5    //a=a-5; 5
 		  System.out.println(a);
 		*/
 

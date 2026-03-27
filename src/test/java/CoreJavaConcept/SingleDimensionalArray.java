@@ -1,10 +1,8 @@
 package CoreJavaConcept;
 
 /*
- 
- Arrays - Array is collection of elements of same data type (Homogenios data).
+Arrays - Array is collection of elements of same data type (Homogenios data).
 We can store multiple values into a single variable.
- 
 1) Declare an array
 2) add values into array
 3) Find length of an array
