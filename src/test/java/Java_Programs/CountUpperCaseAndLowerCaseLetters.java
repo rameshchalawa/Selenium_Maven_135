@@ -14,9 +14,11 @@ public class CountUpperCaseAndLowerCaseLetters {
 			
 			char ch = str.charAt(i);
 
-			if(Character.isUpperCase(ch)) {
+			if(Character.isUpperCase(ch)) //It automatically ignores spaces and special characters.so they're safely skipped without any extra code.
+			{
 				upperCaseCount++;
-			} else if(Character.isLowerCase(ch)) {
+			} else if(Character.isLowerCase(ch)) 
+			{
 				lowerCaseCount++;
 			}
 		}

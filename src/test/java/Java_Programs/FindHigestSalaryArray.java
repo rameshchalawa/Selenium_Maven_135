@@ -8,9 +8,11 @@ public class FindHigestSalaryArray {
 		
 		int maxsalary = 0;
 		
-		for(int salary : sal) {
+		for(int salary : sal) 
+		{
 			
-			if(salary > maxsalary) {
+			if(salary > maxsalary) // If the current salary is greater than the maxsalary, update maxsalary to the current salary
+			{
 				maxsalary = salary;
 			}
 		}

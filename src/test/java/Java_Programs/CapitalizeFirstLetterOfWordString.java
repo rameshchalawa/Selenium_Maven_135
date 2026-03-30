@@ -18,16 +18,16 @@
 	        for (String word : words) {
 	        	
 	            // Extract the first letter of the word and capitalize it
-	            String firstLetter = word.substring(0, 1).toUpperCase();
+	            String firstLetter = word.substring(0, 1).toUpperCase(); //"selenium" → substring(0,1) → "s" → toUpperCase() → "S"
 	            
 	            // Extract the remaining letters of the word
-	            String remainingLetters = word.substring(1);
+	            String remainingLetters = word.substring(1);//
 	            
 	            // Append the capitalized word to the StringBuffer
-	            sb.append(firstLetter).append(remainingLetters).append(" ");
+	            sb.append(firstLetter).append(remainingLetters).append(" "); //sb = "S" + "elenium" + " "  → "Selenium "
 	        }
 	        
 	        // Print the resulting string, trimming any trailing whitespace
-	        System.out.println("Capitalized String: " + sb.toString().trim());
+	        System.out.println("Capitalized String: " + sb.toString().trim()); //Converts StringBuffer → regular String and Removes the trailing space added after the last word
 	    }
 	}
